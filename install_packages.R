@@ -1,0 +1,21 @@
+install.packages(c(
+  'shiny',
+  'readxl',
+  'ggplot2',
+  'readr',
+  'plotly',
+  'Rtsne',
+  'caret',
+  'cluster',
+  'factoextra',
+  'class',
+  'e1071',
+  'caTools',
+  'nloptr',
+  'lme4',
+  'pbkrtest',
+  'car',
+  'rstatix',
+  'FactoMineR',
+  'ggpubr'
+), repos = 'http://cran.rstudio.com/')

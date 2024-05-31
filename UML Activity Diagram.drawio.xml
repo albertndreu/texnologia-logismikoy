@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-05-28T10:55:39.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1EOXzYpUXitbz7rBM2Qn" version="24.4.9" type="google">
+  <diagram name="Σελίδα-1" id="lCgMlFl7m4C0OEm37_mt">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="brXnLATu1EgFobXObnix-1" value="User" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-3" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brXnLATu1EgFobXObnix-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="120" as="sourcePoint" />
+            <mxPoint x="485" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-4" value="Upload file&lt;div&gt;-csv or excel&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brXnLATu1EgFobXObnix-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="270" as="sourcePoint" />
+            <mxPoint x="485" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-8" value="Server&lt;div&gt;-Load Data&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brXnLATu1EgFobXObnix-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <mxPoint x="485" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-10" value="Display data&lt;div&gt;-table output&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="363" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-11" value="Select method&lt;div&gt;-2D visualization&lt;/div&gt;&lt;div&gt;-Classification&lt;/div&gt;&lt;div&gt;-Clustering&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brXnLATu1EgFobXObnix-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="440" as="sourcePoint" />
+            <mxPoint x="485" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brXnLATu1EgFobXObnix-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="570" as="sourcePoint" />
+            <mxPoint x="485" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-15" value="Perfom analysis&lt;div&gt;-PCA,T-SNE,KNN,&lt;/div&gt;&lt;div&gt;LOGISTING REGRESSION,K-MEANS.HIERARCHIAL&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="brXnLATu1EgFobXObnix-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="640" as="sourcePoint" />
+            <mxPoint x="485" y="660" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brXnLATu1EgFobXObnix-17" value="Display results&lt;div&gt;-Plot,Print,Table&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="660" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
